@@ -1,0 +1,10 @@
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('images/banieere.png'); /* Insère ici le chemin vers ton image */
+    background-size: cover; /* L'image couvre toute la section */
+    background-position: center; /* Centrée horizontalement et verticalement */
+    background-repeat: no-repeat; /* Pas de répétition */
+    color: red; /* Pour garantir que le texte reste lisible */
+    position: relative; /* Nécessaire si on ajoute des superpositions */
+}

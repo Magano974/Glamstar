@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamstar - Connecter Talents et Clients</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #ff6fb7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background-color: #ff85c3;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/banieere.png') no-repeat center/cover;
+            color: white;
+        }
+        .hero h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        .hero button {
+            padding: 15px 30px;
+            background-color: #ff6fb7;
+            border: none;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .hero button:hover {
+            background-color: #e05f9c;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+        .feature {
+            flex: 1 1 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .feature img {
+            width: 80px;
+            margin-bottom: 15px;
+        }
+        .feature h3 {
+            margin: 15px 0;
+            font-size: 1.5em;
+        }
+        .cta {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #ff6fb7;
+            color: white;
+        }
+        .cta h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .cta button {
+            padding: 15px 30px;
+            background-color: white;
+            color: #ff6fb7;
+            border: 2px solid white;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .cta button:hover {
+            background-color: #e05f9c;
+            color: white;
+            border-color: #e05f9c;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Glamstar</h1>
+        <p>L'appli qui connecte les talents émergents de l'esthétique à leurs futurs clients</p>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#features">Fonctionnalités</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Découvrez une nouvelle manière de briller</h2>
+        <p>Que vous soyez un débutant cherchant à améliorer vos compétences ou un client à la recherche de services abordables, Glamstar est fait pour vous.</p>
+        <button>Téléchargez l'appli</button>
+    </section>
+    <section id="features" class="features">
+        <div class="feature">
+            <img src="images/icone de connexion.png" alt="Icône connexion">
+            <h3>Connexion rapide</h3>
+            <p>Trouvez ou proposez des services en quelques clics.</p>
+        </div>
+        <div class="feature">
+            <img src="images/icone éco.png" alt="Icône économique">
+            <h3>Prix abordables</h3>
+            <p>Bénéficiez de tarifs adaptés tout en soutenant les talents en devenir.</p>
+        </div>
+        <div class="feature">
+            <img src="images/icone confiance.png" alt="Icône confiance">
+            <h3>Confiance mutuelle</h3>
+            <p>Un environnement où clients et prestataires se développent ensemble.</p>
+        </div>
+    </section>
+    <section class="cta">
+        <h2>Prêt à commencer ?</h2>
+        <button>Rejoignez Glamstar</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Glamstar. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
